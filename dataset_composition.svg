@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" role="img" aria-labelledby="title desc">
+<title id="title">UserToolBench dataset composition</title>
+<desc id="desc">Statistic cards and bar charts for task and turn subtype distributions.</desc>
+<defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.10"/></filter></defs>
+<rect width="1280" height="900" rx="34" fill="#f7f8fb"/>
+<text x="60" y="72" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#172033">Dataset at a glance</text>
+<text x="60" y="108" font-family="Inter,Arial,sans-serif" font-size="18" fill="#667085">Built for incomplete-information, long-horizon personalized delegation.</text>
+<rect x="60" y="145" width="218" height="118" rx="22" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<text x="84" y="197" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="900" fill="#2563eb">10</text>
+<text x="84" y="231" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#475569">user profiles</text>
+<rect x="298" y="145" width="218" height="118" rx="22" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<text x="322" y="197" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="900" fill="#2563eb">36</text>
+<text x="322" y="231" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#475569">tool sets</text>
+<rect x="536" y="145" width="218" height="118" rx="22" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<text x="560" y="197" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="900" fill="#2563eb">300</text>
+<text x="560" y="231" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#475569">deduplicated topics</text>
+<rect x="774" y="145" width="218" height="118" rx="22" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<text x="798" y="197" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="900" fill="#2563eb">1,065</text>
+<text x="798" y="231" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#475569">dialogue turns</text>
+<rect x="1012" y="145" width="218" height="118" rx="22" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<text x="1036" y="197" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="900" fill="#2563eb">170</text>
+<text x="1036" y="231" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#475569">unique tools</text>
+<rect x="60" y="315" width="640" height="280" rx="24" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<text x="88" y="359" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800" fill="#172033">Evaluation task types</text>
+<text x="88" y="419" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#172033">Lack-of-Information</text>
+<rect x="290" y="399" width="390" height="26" rx="13" fill="#eef2f7"/>
+<rect x="290" y="399" width="226.1" height="26" rx="13" fill="#2563eb"/>
+<text x="698" y="419" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">34.79%</text>
+<text x="88" y="442" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">n = 278</text>
+<text x="88" y="481" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#172033">Single-Tool</text>
+<rect x="290" y="461" width="390" height="26" rx="13" fill="#eef2f7"/>
+<rect x="290" y="461" width="215.6" height="26" rx="13" fill="#7c3aed"/>
+<text x="698" y="481" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">33.17%</text>
+<text x="88" y="504" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">n = 265</text>
+<text x="88" y="543" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#172033">Multi-Tool</text>
+<rect x="290" y="523" width="390" height="26" rx="13" fill="#eef2f7"/>
+<rect x="290" y="523" width="208.3" height="26" rx="13" fill="#059669"/>
+<text x="698" y="543" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">32.04%</text>
+<text x="88" y="566" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">n = 256</text>
+<rect x="60" y="590" width="640" height="280" rx="24" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<text x="88" y="634" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800" fill="#172033">Turn-level subtypes</text>
+<text x="88" y="694" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#172033">Partial Information</text>
+<rect x="290" y="674" width="390" height="26" rx="13" fill="#eef2f7"/>
+<rect x="290" y="674" width="357.0" height="26" rx="13" fill="#2563eb"/>
+<text x="698" y="694" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">54.93%</text>
+<text x="88" y="717" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">n = 585</text>
+<text x="88" y="756" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#172033">Cross-Topic</text>
+<rect x="290" y="736" width="390" height="26" rx="13" fill="#eef2f7"/>
+<rect x="290" y="736" width="183.1" height="26" rx="13" fill="#7c3aed"/>
+<text x="698" y="756" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">28.17%</text>
+<text x="88" y="779" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">n = 300</text>
+<text x="88" y="818" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#172033">Long-Range Dependency</text>
+<rect x="290" y="798" width="390" height="26" rx="13" fill="#eef2f7"/>
+<rect x="290" y="798" width="109.8" height="26" rx="13" fill="#059669"/>
+<text x="698" y="818" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">16.90%</text>
+<text x="88" y="841" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">n = 180</text>
+<rect x="810" y="315" width="410" height="555" rx="24" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<text x="838" y="360" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800" fill="#172033">Tool-domain mix</text>
+<text x="838" y="389" font-family="Inter,Arial,sans-serif" font-size="15" fill="#667085">Scenario-level domains used to construct tool ecosystems.</text>
+<circle cx="1015" cy="520" r="115" fill="none" stroke="#2563eb" stroke-width="42" stroke-dasharray="260.85 461.72" stroke-dashoffset="0.00" transform="rotate(-90 1015 520)"/>
+<circle cx="1015" cy="520" r="115" fill="none" stroke="#7c3aed" stroke-width="42" stroke-dasharray="160.41 562.16" stroke-dashoffset="-260.85" transform="rotate(-90 1015 520)"/>
+<circle cx="1015" cy="520" r="115" fill="none" stroke="#059669" stroke-width="42" stroke-dasharray="160.41 562.16" stroke-dashoffset="-421.26" transform="rotate(-90 1015 520)"/>
+<circle cx="1015" cy="520" r="115" fill="none" stroke="#f97316" stroke-width="42" stroke-dasharray="80.20 642.36" stroke-dashoffset="-581.67" transform="rotate(-90 1015 520)"/>
+<circle cx="1015" cy="520" r="115" fill="none" stroke="#0891b2" stroke-width="42" stroke-dasharray="60.70 661.87" stroke-dashoffset="-661.87" transform="rotate(-90 1015 520)"/>
+<circle cx="1015" cy="520" r="72" fill="#ffffff"/>
+<text x="1015" y="518" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="900" fill="#172033">5 domains</text>
+<text x="1015" y="544" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">weather leads</text>
+<rect x="858" y="666" width="16" height="16" rx="4" fill="#2563eb"/>
+<text x="886" y="680" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="650" fill="#172033">Weather</text>
+<text x="1138" y="680" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">36.1%</text>
+<rect x="858" y="700" width="16" height="16" rx="4" fill="#7c3aed"/>
+<text x="886" y="714" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="650" fill="#172033">Security</text>
+<text x="1138" y="714" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">22.2%</text>
+<rect x="858" y="734" width="16" height="16" rx="4" fill="#059669"/>
+<text x="886" y="748" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="650" fill="#172033">Entertainment</text>
+<text x="1138" y="748" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">22.2%</text>
+<rect x="858" y="768" width="16" height="16" rx="4" fill="#f97316"/>
+<text x="886" y="782" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="650" fill="#172033">Finance</text>
+<text x="1138" y="782" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">11.1%</text>
+<rect x="858" y="802" width="16" height="16" rx="4" fill="#0891b2"/>
+<text x="886" y="816" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="650" fill="#172033">Travel</text>
+<text x="1138" y="816" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">8.4%</text>
+</svg>
