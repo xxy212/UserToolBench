@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Profile-hidden evaluation pipeline for UserToolBench</title>
+<desc id="desc">A two-level diagram showing profile-visible reference construction and profile-hidden model evaluation.</desc>
+<defs>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.12"/></filter>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#475569"/></marker>
+<linearGradient id="grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eff6ff"/><stop offset="1" stop-color="#f5f3ff"/></linearGradient>
+</defs>
+<rect width="1280" height="720" rx="34" fill="url(#grad)"/>
+<text x="60" y="78" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#172033">UserToolBench: profile-hidden personalized tool use</text>
+<text x="60" y="113" font-family="Inter,Arial,sans-serif" font-size="18" fill="#667085">Reference traces are built with explicit profiles, but evaluated models must infer preferences from history.</text>
+<rect x="60" y="150" width="1160" height="225" rx="28" fill="rgba(255,255,255,0.72)" stroke="#dbeafe" filter="url(#shadow)"/>
+<rect x="60" y="425" width="1160" height="220" rx="28" fill="rgba(255,255,255,0.82)" stroke="#e9d5ff" filter="url(#shadow)"/>
+<text x="95" y="186" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="800" fill="#2563eb" text-anchor="start">Data synthesis: profile visible</text>
+<text x="95" y="461" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="800" fill="#7c3aed" text-anchor="start">Evaluation: profile hidden</text>
+<rect x="115" y="220" width="175" height="86" rx="18" fill="#eef2ff" stroke="#a5b4fc" filter="url(#shadow)"/>
+<text x="202.5" y="255" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">Persistent</text>
+<text x="202.5" y="279" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">user profile</text>
+<rect x="350" y="220" width="185" height="86" rx="18" fill="#ecfeff" stroke="#67e8f9" filter="url(#shadow)"/>
+<text x="442.5" y="255" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">Persona user</text>
+<text x="442.5" y="279" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">simulator</text>
+<rect x="595" y="220" width="230" height="86" rx="18" fill="#f0fdf4" stroke="#86efac" filter="url(#shadow)"/>
+<text x="710.0" y="255" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">Reference trajectory</text>
+<text x="710.0" y="279" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">generator</text>
+<rect x="885" y="220" width="240" height="86" rx="18" fill="#fff7ed" stroke="#fdba74" filter="url(#shadow)"/>
+<text x="1005.0" y="255" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">Validated tool-call</text>
+<text x="1005.0" y="279" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">trajectories</text>
+<line x1="290" y1="263" x2="350" y2="263" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="535" y1="263" x2="595" y2="263" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="825" y1="263" x2="885" y2="263" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M203 306 C235 350 520 350 710 306" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+<text x="445" y="356" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="600" fill="#2563eb" text-anchor="middle">profile conditions requests and references</text>
+<rect x="105" y="505" width="220" height="84" rx="18" fill="#ffffff" stroke="#c4b5fd" filter="url(#shadow)"/>
+<text x="215.0" y="539" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">Interaction history</text>
+<text x="215.0" y="563" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">+ current request</text>
+<rect x="385" y="505" width="200" height="84" rx="18" fill="#ffffff" stroke="#c4b5fd" filter="url(#shadow)"/>
+<text x="485.0" y="539" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">Available tool</text>
+<text x="485.0" y="563" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">schemas</text>
+<rect x="650" y="505" width="190" height="84" rx="18" fill="#ffffff" stroke="#c4b5fd" filter="url(#shadow)"/>
+<text x="745.0" y="539" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">Evaluated LLM</text>
+<rect x="900" y="505" width="220" height="84" rx="18" fill="#ffffff" stroke="#c4b5fd" filter="url(#shadow)"/>
+<text x="1010.0" y="539" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">Predicted tool-call</text>
+<text x="1010.0" y="563" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="750" fill="#172033" text-anchor="middle">trajectory</text>
+<line x1="325" y1="547" x2="385" y2="547" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="585" y1="547" x2="650" y2="547" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="840" y1="547" x2="900" y2="547" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="560" y="632" width="350" height="48" rx="24" fill="#fef2f2" stroke="#fecaca" stroke-dasharray="8 6"/>
+<text x="735" y="663" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="750" fill="#dc2626" text-anchor="middle">explicit profile is hidden during evaluation</text>
+<path d="M203 306 C280 456 420 515 650 535" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="8 7"/>
+<line x1="615" y1="500" x2="685" y2="570" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+<line x1="685" y1="500" x2="615" y2="570" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+<text x="735" y="616" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="600" fill="#667085" text-anchor="middle">models must recover preferences from history, not copy a profile</text>
+</svg>

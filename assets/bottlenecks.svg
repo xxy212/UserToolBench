@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="650" viewBox="0 0 1280 650" role="img" aria-labelledby="title desc">
+<title id="title">Bottlenecks for personalized delegation</title>
+<desc id="desc">Charts and cards summarizing multi-tool, missing-information, and long-horizon bottlenecks.</desc>
+<defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.10"/></filter></defs>
+<rect width="1280" height="650" rx="34" fill="#f7f8fb"/>
+<text x="60" y="72" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#172033">Where current agents break</text>
+<text x="60" y="108" font-family="Inter,Arial,sans-serif" font-size="18" fill="#667085">The benchmark isolates failures that generic tool-use success can hide.</text>
+<rect x="60" y="150" width="560" height="430" rx="24" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<text x="92" y="196" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800" fill="#172033">Average accuracy by task type</text>
+<line x1="110" y1="510.0" x2="570" y2="510.0" stroke="#eef2f7"/>
+<text x="92" y="515.0" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#667085">0</text>
+<line x1="110" y1="426.6666666666667" x2="570" y2="426.6666666666667" stroke="#eef2f7"/>
+<text x="92" y="431.6666666666667" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#667085">30</text>
+<line x1="110" y1="343.33333333333337" x2="570" y2="343.33333333333337" stroke="#eef2f7"/>
+<text x="92" y="348.33333333333337" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#667085">60</text>
+<line x1="110" y1="260.0" x2="570" y2="260.0" stroke="#eef2f7"/>
+<text x="92" y="265.0" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#667085">90</text>
+<rect x="150" y="367.5030864197531" width="38" height="142.4969135802469" rx="10" fill="#7c3aed"/>
+<rect x="198" y="297.19444444444446" width="38" height="212.80555555555554" rx="10" fill="#059669"/>
+<text x="188" y="542" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="800" fill="#172033">ST</text>
+<text x="169.0" y="359.5030864197531" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" fill="#7c3aed">51.3</text>
+<text x="217.0" y="289.19444444444446" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" fill="#059669">76.6</text>
+<rect x="300" y="439.8827160493827" width="38" height="70.11728395061729" rx="10" fill="#7c3aed"/>
+<rect x="348" y="341.5246913580247" width="38" height="168.47530864197532" rx="10" fill="#059669"/>
+<text x="338" y="542" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="800" fill="#172033">MT</text>
+<text x="319.0" y="431.8827160493827" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" fill="#7c3aed">25.2</text>
+<text x="367.0" y="333.5246913580247" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" fill="#059669">60.7</text>
+<rect x="450" y="436.52777777777777" width="38" height="73.47222222222223" rx="10" fill="#7c3aed"/>
+<rect x="498" y="394.0216049382716" width="38" height="115.97839506172839" rx="10" fill="#059669"/>
+<text x="488" y="542" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="800" fill="#172033">LOI</text>
+<text x="469.0" y="428.52777777777777" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" fill="#7c3aed">26.5</text>
+<text x="517.0" y="386.0216049382716" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" fill="#059669">41.8</text>
+<circle cx="350" cy="560" r="7" fill="#7c3aed"/><text x="365" y="565" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#475569">Exact</text>
+<circle cx="430" cy="560" r="7" fill="#059669"/><text x="445" y="565" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#475569">Relaxed</text>
+<rect x="680" y="150" width="540" height="118" rx="24" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<circle cx="728" cy="209" r="28" fill="#eff6ff" stroke="#bfdbfe"/>
+<text x="728" y="218" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="900" fill="#2563eb">1</text>
+<text x="772" y="192" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="850" fill="#172033">Multi-tool coordination</text>
+<text x="772" y="220" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">Agents must select tools, order them, and pass intermediate results</text>
+<text x="772" y="240" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">while preserving user-specific constraints.</text>
+<rect x="680" y="295" width="540" height="118" rx="24" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<circle cx="728" cy="354" r="28" fill="#eff6ff" stroke="#bfdbfe"/>
+<text x="728" y="363" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="900" fill="#2563eb">2</text>
+<text x="772" y="337" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="850" fill="#172033">Missing-constraint inference</text>
+<text x="772" y="365" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">The model must decide whether to infer from history or ask a</text>
+<text x="772" y="385" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">clarification question.</text>
+<rect x="680" y="440" width="540" height="118" rx="24" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<circle cx="728" cy="499" r="28" fill="#eff6ff" stroke="#bfdbfe"/>
+<text x="728" y="508" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="900" fill="#2563eb">3</text>
+<text x="772" y="482" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="850" fill="#172033">Long-horizon consistency</text>
+<text x="772" y="510" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">More history helps only if the agent can retrieve stable preferences</text>
+<text x="772" y="530" font-family="Inter,Arial,sans-serif" font-size="14" fill="#667085">and ignore stale details.</text>
+<rect x="680" y="585" width="540" height="50" rx="20" fill="#f8fafc" stroke="#e4e7ec"/>
+<text x="710" y="616" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="750" fill="#475569">Trajectory position: First 39.6% · Mid 37.3% · Last 30.9% (avg exact)</text>
+</svg>

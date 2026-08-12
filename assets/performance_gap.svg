@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="830" viewBox="0 0 1280 830" role="img" aria-labelledby="title desc">
+<title id="title">Exact vs relaxed performance on UserToolBench</title>
+<desc id="desc">Dumbbell chart showing average exact accuracy and average relaxed task completion accuracy by model.</desc>
+<defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.10"/></filter></defs>
+<rect width="1280" height="830" rx="34" fill="#f7f8fb"/>
+<text x="60" y="72" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#172033">Executable ≠ personalized</text>
+<text x="60" y="108" font-family="Inter,Arial,sans-serif" font-size="18" fill="#667085">Relaxed task completion is much higher than exact, profile-conditioned trajectory matching.</text>
+<rect x="50" y="145" width="1180" height="620" rx="24" fill="#ffffff" stroke="#e4e7ec" filter="url(#shadow)"/>
+<line x1="340.0" y1="180" x2="340.0" y2="725" stroke="#eef2f7" stroke-width="1"/>
+<text x="340.0" y="750" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">0%</text>
+<line x1="535.0" y1="180" x2="535.0" y2="725" stroke="#eef2f7" stroke-width="1"/>
+<text x="535.0" y="750" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">20%</text>
+<line x1="730.0" y1="180" x2="730.0" y2="725" stroke="#eef2f7" stroke-width="1"/>
+<text x="730.0" y="750" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">40%</text>
+<line x1="925.0" y1="180" x2="925.0" y2="725" stroke="#eef2f7" stroke-width="1"/>
+<text x="925.0" y="750" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">60%</text>
+<line x1="1120.0" y1="180" x2="1120.0" y2="725" stroke="#eef2f7" stroke-width="1"/>
+<text x="1120.0" y="750" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">80%</text>
+<text x="1160" y="750" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" fill="#667085">Accuracy</text>
+<circle cx="874" cy="110" r="8" fill="#7c3aed"/><text x="890" y="115" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#475569">Avg. Exact Acc.</text>
+<circle cx="1040" cy="110" r="8" fill="#059669"/><text x="1056" y="115" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#475569">Avg. Relaxed Acc.</text>
+<text x="85" y="210" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#172033">GLM-5</text>
+<line x1="821.26" y1="205" x2="1019.8675000000001" y2="205" stroke="#d0d5dd" stroke-width="8" stroke-linecap="round"/>
+<circle cx="821.26" cy="205" r="10" fill="#7c3aed"/>
+<circle cx="1019.8675000000001" cy="205" r="10" fill="#059669"/>
+<text x="807.26" y="189" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#7c3aed">49.36</text>
+<text x="1033.8675" y="210" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#059669">69.73</text>
+<text x="85" y="268" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#172033">DeepSeek V4 Pro</text>
+<line x1="754.2775" y1="263" x2="1047.3625" y2="263" stroke="#d0d5dd" stroke-width="8" stroke-linecap="round"/>
+<circle cx="754.2775" cy="263" r="10" fill="#7c3aed"/>
+<circle cx="1047.3625" cy="263" r="10" fill="#059669"/>
+<text x="740.2775" y="247" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#7c3aed">42.49</text>
+<text x="1061.3625" y="268" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#059669">72.55</text>
+<text x="85" y="326" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#172033">Kimi K2.6</text>
+<line x1="716.8375" y1="321" x2="981.4525000000001" y2="321" stroke="#d0d5dd" stroke-width="8" stroke-linecap="round"/>
+<circle cx="716.8375" cy="321" r="10" fill="#7c3aed"/>
+<circle cx="981.4525000000001" cy="321" r="10" fill="#059669"/>
+<text x="702.8375" y="305" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#7c3aed">38.65</text>
+<text x="995.4525000000001" y="326" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#059669">65.79</text>
+<text x="85" y="384" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#172033">Qwen 3.6 Plus</text>
+<line x1="700.945" y1="379" x2="971.8975" y2="379" stroke="#d0d5dd" stroke-width="8" stroke-linecap="round"/>
+<circle cx="700.945" cy="379" r="10" fill="#7c3aed"/>
+<circle cx="971.8975" cy="379" r="10" fill="#059669"/>
+<text x="686.945" y="363" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#7c3aed">37.02</text>
+<text x="985.8975" y="384" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#059669">64.81</text>
+<text x="85" y="442" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#172033">Gemini 3.5 Flash</text>
+<line x1="674.62" y1="437" x2="964.1949999999999" y2="437" stroke="#d0d5dd" stroke-width="8" stroke-linecap="round"/>
+<circle cx="674.62" cy="437" r="10" fill="#7c3aed"/>
+<circle cx="964.1949999999999" cy="437" r="10" fill="#059669"/>
+<text x="660.62" y="421" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#7c3aed">34.32</text>
+<text x="978.1949999999999" y="442" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#059669">64.02</text>
+<text x="85" y="500" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#172033">GPT-5.4</text>
+<line x1="651.8050000000001" y1="495" x2="1000.1724999999999" y2="495" stroke="#d0d5dd" stroke-width="8" stroke-linecap="round"/>
+<circle cx="651.8050000000001" cy="495" r="10" fill="#7c3aed"/>
+<circle cx="1000.1724999999999" cy="495" r="10" fill="#059669"/>
+<text x="637.8050000000001" y="479" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#7c3aed">31.98</text>
+<text x="1014.1724999999999" y="500" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#059669">67.71</text>
+<text x="85" y="558" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#172033">ToolACE-2.5-8B</text>
+<line x1="628.5025" y1="553" x2="817.165" y2="553" stroke="#d0d5dd" stroke-width="8" stroke-linecap="round"/>
+<circle cx="628.5025" cy="553" r="10" fill="#7c3aed"/>
+<circle cx="817.165" cy="553" r="10" fill="#059669"/>
+<text x="614.5025" y="537" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#7c3aed">29.59</text>
+<text x="831.165" y="558" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#059669">48.94</text>
+<text x="85" y="616" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#172033">Hammer2.1-7B</text>
+<line x1="581.4100000000001" y1="611" x2="772.12" y2="611" stroke="#d0d5dd" stroke-width="8" stroke-linecap="round"/>
+<circle cx="581.4100000000001" cy="611" r="10" fill="#7c3aed"/>
+<circle cx="772.12" cy="611" r="10" fill="#059669"/>
+<text x="567.4100000000001" y="595" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#7c3aed">24.76</text>
+<text x="786.12" y="616" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#059669">44.32</text>
+<text x="85" y="674" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#172033">Watt-Tool-8B</text>
+<line x1="542.8" y1="669" x2="721.81" y2="669" stroke="#d0d5dd" stroke-width="8" stroke-linecap="round"/>
+<circle cx="542.8" cy="669" r="10" fill="#7c3aed"/>
+<circle cx="721.81" cy="669" r="10" fill="#059669"/>
+<text x="528.8" y="653" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#7c3aed">20.80</text>
+<text x="735.81" y="674" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="750" fill="#059669">39.16</text>
+<rect x="735" y="635" width="455" height="98" rx="20" fill="#fef3c7" stroke="#fde68a"/>
+<text x="760" y="670" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="850" fill="#92400e">Key reading</text>
+<text x="760" y="698" font-family="Inter,Arial,sans-serif" font-size="15" fill="#92400e">Agents may complete the surface task</text>
+<text x="760" y="720" font-family="Inter,Arial,sans-serif" font-size="15" fill="#92400e">while missing the user-specific decision path.</text>
+</svg>
